@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from 'components/Header'
 import * as S from './styles'
+import About from 'components/About'
 
 const Home = () => {
   return (
@@ -35,6 +36,8 @@ const Home = () => {
           <S.ImgPerfil src="/img/img-main.png" />
         </S.HomePage>
       </S.Home>
+
+      <About />
     </>
   )
 }
