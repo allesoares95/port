@@ -5,9 +5,12 @@ export const Academic = styled.section`
   color: ${(props) => props.theme.text};
   width: 100%;
   height: 100vh;
-
   align-items: center;
   text-align: center;
+
+  @media (max-width: 869px) {
+    height: 110vh;
+  }
 `
 
 export const DivContainer = styled.div``

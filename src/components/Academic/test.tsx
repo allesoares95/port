@@ -6,7 +6,9 @@ describe('<Academic />', () => {
   it('should render the heading', () => {
     const { container } = render(<Academic />)
 
-    expect(screen.getByRole('heading', { name: /Academic/i })).toBeInTheDocument()
+    expect(
+      screen.getByRole('heading', { name: /Academic/i })
+    ).toBeInTheDocument()
 
     expect(container.firstChild).toMatchSnapshot()
   })
