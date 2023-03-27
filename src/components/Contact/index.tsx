@@ -1,10 +1,15 @@
 import { GithubLogo, LinkedinLogo } from '@phosphor-icons/react'
+import { TechContact } from 'components/Animation/TechContact'
 import FormContact from 'components/FormContact'
 import * as S from './styles'
 
 const Contact = () => (
   <S.Contact>
-    <S.TitleContact>Contato</S.TitleContact>
+    <S.ContactImgForm>
+      <S.TitleContact>Contato</S.TitleContact>
+      <TechContact />
+    </S.ContactImgForm>
+
     <S.TextContact>
       Entre contato comigo pelas redes sociais ou e-mail
     </S.TextContact>

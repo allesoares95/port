@@ -2,9 +2,10 @@ import styled from 'styled-components'
 
 export const Home = styled.main`
   width: 100%;
-  height: calc(100vh - 100px);
+  height: 100vh;
   background-color: url('/img/background.jpg');
   color: ${(props) => props.theme.text};
+  padding-top: 100px;
 
   @media (max-width: 869px) {
     display: flex;
@@ -16,7 +17,8 @@ export const Home = styled.main`
 `
 
 export const TitleDiv = styled.div`
-  padding: 50px 80px;
+  transition: transform;
+  padding: 0 50px;
 
   @media (max-width: 869px) {
     padding: 10px 20px;
@@ -24,28 +26,30 @@ export const TitleDiv = styled.div`
 `
 
 export const Title = styled.h1`
-  font-family: 'Noto Serif JP', serif;
-  font-size: 54px;
+  font-family: 'Noto Serif JP', sans-serif;
+  font-size: 36px;
 
   @media (max-width: 869px) {
-    font-size: 42px;
+    font-size: 30px;
   }
 `
 
 export const Text = styled.p`
   font-family: 'Tenor Sans', sans-serif;
-  font-size: 28px;
+  font-size: 25px;
 
   @media (max-width: 869px) {
     font-size: 20px;
   }
 `
 
-export const HomePage = styled.section`
+export const HomePage = styled.div`
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 40px 100px;
+  justify-content: center;
+  gap: 100px;
+  width: 90%;
+  padding: 0 60px;
+  margin: 0 auto;
 
   @media (max-width: 869px) {
     display: flex;
@@ -53,8 +57,8 @@ export const HomePage = styled.section`
     flex-direction: column;
     align-items: center;
     display: flex;
-
     padding: 15px 30px;
+    gap: 40px;
   }
 `
 
@@ -67,14 +71,5 @@ export const Message = styled.div`
 
   @media (max-width: 869px) {
     font-size: 20px;
-  }
-`
-
-export const ImgPerfil = styled.img`
-  width: 600px;
-  border-radius: 20px;
-
-  @media (max-width: 869px) {
-    width: 300px;
   }
 `

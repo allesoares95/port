@@ -2,19 +2,27 @@ import styled from 'styled-components'
 
 export const About = styled.section`
   width: 100%;
-  height: 100vh;
+  height: 120vh;
 
   background-color: ${(props) => props.theme.background};
   color: ${(props) => props.theme.text};
 `
 
-export const Container = styled.div``
+export const Container = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+`
 
 export const ContentAbout = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 100px;
+  gap: 30px;
 
   @media (max-width: 869px) {
     display: flex;
@@ -25,6 +33,7 @@ export const ContentAbout = styled.div`
     padding: 0 30px;
   }
 `
+export const NameAbout = styled.p``
 
 export const Title = styled.h1`
   text-align: center;
@@ -44,10 +53,10 @@ export const TextAbout = styled.p`
 `
 
 export const ImgPerfil = styled.img`
-  width: 400px;
+  width: 300px;
   border-radius: 50%;
 
   @media (max-width: 869px) {
-    width: 250px;
+    width: 100px;
   }
 `

@@ -10,6 +10,17 @@ export const Contact = styled.div`
   color: ${(props) => props.theme.text};
 `
 
+export const ContactImgForm = styled.div`
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  gap: 20px;
+
+  @media (max-width: 869px) {
+    padding: 30px;
+  }
+`
+
 export const TitleContact = styled.h1`
   padding: 80px 0 30px 0;
 `

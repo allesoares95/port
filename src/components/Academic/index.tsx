@@ -1,12 +1,16 @@
+import { TechAcademic } from 'components/Animation/TechAcademic'
+import { TechDeveloper } from 'components/Animation/TechDeveloper'
 import * as S from './styles'
 
 const Academic = () => (
   <S.Academic>
-    <S.Title>Formação Acadêmica</S.Title>
-    <S.ImgReact src="/img/img-react.png" />
+    <S.DivContainer>
+      <S.Title>Formação Acadêmica</S.Title>
+    </S.DivContainer>
 
     <S.Content>
       <S.Skill>
+        <TechDeveloper />
         <S.TitleSkill>Habilidades</S.TitleSkill>
         <S.Text>
           JavaScript, React, Next e TypeScript.
@@ -23,6 +27,7 @@ const Academic = () => (
       </S.Skill>
 
       <S.Skill>
+        <TechAcademic />
         <S.TitleSkill>Escolaridade</S.TitleSkill>
         <S.Text>
           Faculdade Anhanguera:

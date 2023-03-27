@@ -1,6 +1,15 @@
 import styled from 'styled-components'
 
 export const Header = styled.header`
+  position: fixed;
+  opacity: 0.85;
+  width: 100%;
+
+  @media (max-width: 869px) {
+    opacity: 1;
+    position: fixed;
+  }
+
   .fa-bars {
     color: ${(props) => props.theme.menu};
   }

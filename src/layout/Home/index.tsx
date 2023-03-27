@@ -6,6 +6,7 @@ import Academic from 'components/Academic'
 import Project from 'components/Project'
 import Contact from 'components/Contact'
 import Footer from 'components/Footer'
+import { TechAnimation } from 'components/Animation/TechLottie'
 
 const Home = () => {
   return (
@@ -37,7 +38,7 @@ const Home = () => {
             </S.Text>
           </S.Message>
 
-          <S.ImgPerfil src="/img/img-main.png" />
+          <TechAnimation />
         </S.HomePage>
       </S.Home>
 

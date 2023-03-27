@@ -39,13 +39,13 @@ function Header() {
             </S.NavItem>
 
             <S.NavItem>
-              <S.NavLinks href="#project" onClick={closeMobileMenu}>
+              <S.NavLinks href="#projetos" onClick={closeMobileMenu}>
                 Projetos
               </S.NavLinks>
             </S.NavItem>
 
             <S.NavItem>
-              <S.NavLinks href="#contact" onClick={closeMobileMenu}>
+              <S.NavLinks href="#contato" onClick={closeMobileMenu}>
                 Contato
               </S.NavLinks>
             </S.NavItem>
