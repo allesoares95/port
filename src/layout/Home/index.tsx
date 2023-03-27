@@ -2,6 +2,7 @@ import React from 'react'
 import Header from 'components/Header'
 import * as S from './styles'
 import About from 'components/About'
+import Academic from 'components/Academic'
 
 const Home = () => {
   return (
@@ -13,7 +14,7 @@ const Home = () => {
           backgroundImage: "url('/img/background.jpg')",
           opacity: 1.5,
           width: '100%',
-          height: '100vh'
+          height: 'cal(100vh - 100px)'
         }}
       >
         <S.TitleDiv>
@@ -38,6 +39,7 @@ const Home = () => {
       </S.Home>
 
       <About />
+      <Academic />
     </>
   )
 }

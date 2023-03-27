@@ -36,7 +36,7 @@ export const NavBarContainer = styled.div`
   width: 100%;
   padding: 0 50px;
 
-  @media (max-width: 789px) {
+  @media (max-width: 869px) {
     padding: 0 20px;
     height: 90vh;
   }
@@ -51,7 +51,7 @@ export const NavBarLogo = styled.a`
 export const MenuIcon = styled.div`
   display: none;
 
-  @media (max-width: 789px) {
+  @media (max-width: 869px) {
     display: block;
     position: absolute;
     top: 0;
@@ -64,7 +64,7 @@ export const MenuIcon = styled.div`
 
 export const NavMenu = styled.ul`
   display: grid;
-  grid-template-columns: repeat(4, auto);
+  grid-template-columns: repeat(5, auto);
   grid-gap: 10px;
   list-style: none;
   text-align: center;
@@ -72,7 +72,7 @@ export const NavMenu = styled.ul`
   justify-content: end;
   margin-right: 2rem;
 
-  @media (max-width: 789px) {
+  @media (max-width: 869px) {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -102,7 +102,7 @@ export const NavLinks = styled.a`
     transition: all 0.2s ease-out;
   }
 
-  @media (max-width: 789px) {
+  @media (max-width: 869px) {
     text-align: center;
     padding: 2rem;
     width: 100%;

@@ -34,6 +34,12 @@ function Header() {
 
             <S.NavItem>
               <S.NavLinks href="#" onClick={closeMobileMenu}>
+                Formação
+              </S.NavLinks>
+            </S.NavItem>
+
+            <S.NavItem>
+              <S.NavLinks href="#" onClick={closeMobileMenu}>
                 Projetos
               </S.NavLinks>
             </S.NavItem>
