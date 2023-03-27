@@ -21,31 +21,31 @@ function Header() {
 
           <S.NavMenu className={click ? 'nav-menu active' : 'nav-menu'}>
             <S.NavItem>
-              <S.NavLinks href="#" onClick={closeMobileMenu}>
+              <S.NavLinks href="#home" onClick={closeMobileMenu}>
                 Home
               </S.NavLinks>
             </S.NavItem>
 
             <S.NavItem>
-              <S.NavLinks href="#" onClick={closeMobileMenu}>
+              <S.NavLinks href="#sobre-mim" onClick={closeMobileMenu}>
                 Sobre-mim
               </S.NavLinks>
             </S.NavItem>
 
             <S.NavItem>
-              <S.NavLinks href="#" onClick={closeMobileMenu}>
+              <S.NavLinks href="#formacao" onClick={closeMobileMenu}>
                 Formação
               </S.NavLinks>
             </S.NavItem>
 
             <S.NavItem>
-              <S.NavLinks href="#" onClick={closeMobileMenu}>
+              <S.NavLinks href="#project" onClick={closeMobileMenu}>
                 Projetos
               </S.NavLinks>
             </S.NavItem>
 
             <S.NavItem>
-              <S.NavLinks href="#" onClick={closeMobileMenu}>
+              <S.NavLinks href="#contact" onClick={closeMobileMenu}>
                 Contato
               </S.NavLinks>
             </S.NavItem>

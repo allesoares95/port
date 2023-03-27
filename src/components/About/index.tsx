@@ -3,11 +3,11 @@ import * as S from './styles'
 const About = () => (
   <S.About>
     <S.Container>
-      <S.Title>sobre-min</S.Title>
+      <S.Title>Sobre mim</S.Title>
 
       <S.ContentAbout>
         <S.TextAbout>
-          Olá, me chamo Alexandre Soares e sou um Desenvolvedor front-end, com
+          Olá, me chamo Alexandre Soares e sou Desenvolvedor front-end, com
           conhecimento práticos em diversas tecnologias para a criação de
           interfaces web. Meu conjunto de habilidades inclui JavaScript,
           TypeScript, React, Next, HTML, CSS, Styled-Components, NodeJS, APIs,
@@ -20,8 +20,8 @@ const About = () => (
           <br />
           No entanto, estou sempre buscando novas oportunidades para aperfeiçõar
           meu conhecimento como desenvolvedor. Sou altamente proativo e tenho
-          uma capacidade excepcional de aprendizado. Estou sempre em busca de
-          aprender novas tecnologias e exporar novas forma de fazer as coisas.
+          uma alta capacidade de aprendizado. Estou sempre em busca de aprender
+          novas tecnologias e explorar novas forma de fazer as coisas.
           <br />
           <br />
           Meu objetivo é sempre fornecer soluções criativas e eficazes para os

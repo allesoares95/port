@@ -5,6 +5,7 @@ import About from 'components/About'
 import Academic from 'components/Academic'
 import Project from 'components/Project'
 import Contact from 'components/Contact'
+import Footer from 'components/Footer'
 
 const Home = () => {
   return (
@@ -44,6 +45,7 @@ const Home = () => {
       <Academic />
       <Project />
       <Contact />
+      <Footer />
     </>
   )
 }

@@ -63,7 +63,7 @@ function FormContact() {
 
           <S.MessageSent
             className="textarea"
-            placeholder="Digite sua mensagem..."
+            placeholder="Digite sua mensagem"
             onChange={(e) => setMessage(e.target.value)}
             value={message}
           />
