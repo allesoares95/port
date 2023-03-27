@@ -3,6 +3,7 @@ import Header from 'components/Header'
 import * as S from './styles'
 import About from 'components/About'
 import Academic from 'components/Academic'
+import Project from 'components/Project'
 
 const Home = () => {
   return (
@@ -40,6 +41,7 @@ const Home = () => {
 
       <About />
       <Academic />
+      <Project />
     </>
   )
 }
