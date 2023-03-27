@@ -1670,10 +1670,10 @@
     mkdirp "^1.0.4"
     rimraf "^3.0.2"
 
-"@phosphor-icons/react@^2.0.5":
-  version "2.0.5"
-  resolved "https://registry.npmjs.org/@phosphor-icons/react/-/react-2.0.5.tgz"
-  integrity sha512-Ghohi+Dk+Y0RoI1vra3jH2QC3sO6C16a/Km0gfy05ONIsC62Vwn1SK2Qaim77VPyn1FS7qjMxocdi9kx6btvXg==
+"@phosphor-icons/react@^2.0.6":
+  version "2.0.6"
+  resolved "https://registry.yarnpkg.com/@phosphor-icons/react/-/react-2.0.6.tgz#6b05f206b7a7dc5946081fbba92b11aea5ff134f"
+  integrity sha512-vT5Tv+isibcRO1ATPW+cZs2w46n512SfShRX9kqZbETht8ME11CT387APBbcW9EAeBFEGM6buoYxP+0/IJJRKg==
 
 "@pmmmwh/react-refresh-webpack-plugin@^0.5.3":
   version "0.5.10"
@@ -5716,6 +5716,11 @@ elliptic@^6.5.3:
     inherits "^2.0.4"
     minimalistic-assert "^1.0.1"
     minimalistic-crypto-utils "^1.0.1"
+
+emailjs@^4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/emailjs/-/emailjs-4.0.1.tgz#963533d07bf41b90bc5e7651b99464bd01129dfd"
+  integrity sha512-rTN/LDvlqwU79E367ovB7FIziImzimhQcZiGmC20VcDPbf0mv3l9c3aavtMcEFaFBsycjGB5aMIhz4ZbKNeLWw==
 
 emittery@^0.13.1:
   version "0.13.1"

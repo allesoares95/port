@@ -4,6 +4,7 @@ import * as S from './styles'
 import About from 'components/About'
 import Academic from 'components/Academic'
 import Project from 'components/Project'
+import Contact from 'components/Contact'
 
 const Home = () => {
   return (
@@ -42,6 +43,7 @@ const Home = () => {
       <About />
       <Academic />
       <Project />
+      <Contact />
     </>
   )
 }
