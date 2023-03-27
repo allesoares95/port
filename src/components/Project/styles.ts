@@ -10,11 +10,11 @@ export const Project = styled.div`
 export const ProjectTitle = styled.h1`
   text-align: center;
   padding: 100px 0 50px 0;
-  font-size: 3rem;
+  font-size: 2rem;
 
   @media (max-width: 1020px) {
     padding: 60px 0 10px 0;
-    font-size: 2rem;
+    font-size: 1.25rem;
   }
 `
 
@@ -54,17 +54,17 @@ export const TwtProject = styled.div``
 
 export const NameProject = styled.h1`
   font-weight: 600;
-  font-size: 2rem;
+  font-size: 1.5rem;
 
   @media (max-width: 1020px) {
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 500;
     margin-bottom: 10px;
   }
 `
 
 export const TextProject = styled.p`
-  font-size: 1.25rem;
+  font-size: 1rem;
   padding: 15px 20px;
 
   @media (max-width: 1020px) {
@@ -93,7 +93,7 @@ export const AcessProject = styled.a`
   background-color: ${(props) => props.theme.text};
   color: ${(props) => props.theme.background};
 
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-weight: 600;
 
   @media (max-width: 1020px) {

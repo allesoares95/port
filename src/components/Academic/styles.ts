@@ -17,11 +17,11 @@ export const DivContainer = styled.div``
 
 export const Title = styled.h1`
   padding: 100px 0 50px 0;
-  font-size: 3rem;
+  font-size: 2rem;
 
   @media (max-width: 1020px) {
     padding: 60px 0 10px 0;
-    font-size: 2rem;
+    font-size: 1.25rem;
   }
 `
 
@@ -68,15 +68,15 @@ export const Skill = styled.div`
 `
 
 export const TitleSkill = styled.h1`
-  font-size: 2rem;
+  font-size: 1.5rem;
 
   @media (max-width: 1020px) {
-    font-size: 1.25rem;
+    font-size: 1rem;
   }
 `
 
 export const Text = styled.p`
-  font-size: 1.25rem;
+  font-size: 1rem;
 
   @media (max-width: 1020px) {
     font-size: 0.8rem;

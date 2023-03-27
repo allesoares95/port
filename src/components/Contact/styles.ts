@@ -27,16 +27,16 @@ export const ContactImgForm = styled.div`
 
 export const TitleContact = styled.h1`
   padding: 80px 0 30px 0;
-  font-size: 3rem;
+  font-size: 2rem;
 
   @media (max-width: 1020) {
-    font-size: 2rem;
+    font-size: 1.25rem;
   }
 `
 
 export const TextContact = styled.p`
   padding: 40px 10px;
-  font-size: 1.25rem;
+  font-size: 1rem;
 
   @media (max-width: 1020) {
     font-size: 0.8rem;

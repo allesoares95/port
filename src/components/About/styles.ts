@@ -41,11 +41,11 @@ export const NameAbout = styled.p``
 export const Title = styled.h1`
   text-align: center;
   padding: 100px 0 30px 0;
-  font-size: 3rem;
+  font-size: 2rem;
 
   @media (max-width: 1020px) {
     padding: 40px 0 20px 0;
-    font-size: 2rem;
+    font-size: 1.25rem;
   }
 `
 

@@ -27,7 +27,7 @@ export const TitleDiv = styled.div`
 
 export const Title = styled.h1`
   font-family: 'Noto Serif JP', sans-serif;
-  font-size: 3rem;
+  font-size: 2rem;
 
   @media (max-width: 869px) {
     font-size: 1.5rem;
@@ -36,7 +36,7 @@ export const Title = styled.h1`
 
 export const Text = styled.p`
   font-family: 'Tenor Sans', sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 
   @media (max-width: 869px) {
     font-size: 0.8rem;
