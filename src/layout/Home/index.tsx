@@ -16,7 +16,6 @@ const Home = () => {
       <S.Home
         style={{
           backgroundImage: "url('/img/background.jpg')",
-          opacity: 1.5,
           width: '100%',
           height: 'cal(100vh - 100px)'
         }}

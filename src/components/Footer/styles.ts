@@ -15,7 +15,7 @@ export const Copyright = styled.p`
   font-weight: 600;
   font-size: 24px;
 
-  @media (max-width: 869px) {
+  @media (max-width: 1020px) {
     font-size: 18px;
   }
 `

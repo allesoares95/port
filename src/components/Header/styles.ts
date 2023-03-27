@@ -5,7 +5,7 @@ export const Header = styled.header`
   opacity: 0.85;
   width: 100%;
 
-  @media (max-width: 869px) {
+  @media (max-width: 1020px) {
     opacity: 1;
     position: fixed;
   }
@@ -45,7 +45,7 @@ export const NavBarContainer = styled.div`
   width: 100%;
   padding: 0 50px;
 
-  @media (max-width: 869px) {
+  @media (max-width: 1020px) {
     padding: 0 20px;
     height: 90vh;
   }
@@ -60,7 +60,7 @@ export const NavBarLogo = styled.a`
 export const MenuIcon = styled.div`
   display: none;
 
-  @media (max-width: 869px) {
+  @media (max-width: 1020px) {
     display: block;
     position: absolute;
     top: 0;
@@ -81,7 +81,7 @@ export const NavMenu = styled.ul`
   justify-content: end;
   margin-right: 2rem;
 
-  @media (max-width: 869px) {
+  @media (max-width: 1020px) {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -111,7 +111,7 @@ export const NavLinks = styled.a`
     transition: all 0.2s ease-out;
   }
 
-  @media (max-width: 869px) {
+  @media (max-width: 1020px) {
     text-align: center;
     padding: 2rem;
     width: 100%;

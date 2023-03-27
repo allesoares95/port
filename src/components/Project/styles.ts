@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const Project = styled.section`
+export const Project = styled.div`
   width: 100%;
   height: 100vh;
   background-color: ${(props) => props.theme.background};
@@ -9,26 +9,35 @@ export const Project = styled.section`
 
 export const ProjectTitle = styled.h1`
   text-align: center;
-  padding: 80px 0 30px 0;
+  padding: 100px 0 50px 0;
+  font-size: 3rem;
 
-  @media (max-width: 869px) {
+  @media (max-width: 1020px) {
     padding: 60px 0 10px 0;
-    font-size: 30px;
+    font-size: 2rem;
   }
 `
 
-export const Container = styled.div``
-
-export const Carousel = styled.div``
+export const ProjectComponents = styled.div`
+  @media (max-width: 1020px) {
+    width: 100%;
+    height: 500px;
+    padding-top: 60px;
+  }
+`
 
 export const Projects = styled.div`
   width: 100%;
   max-width: 600px;
-
   height: 600px;
   background-color: ${(props) => props.theme.secundary};
   color: ${(props) => props.theme.text};
   text-align: center;
+
+  @media (max-width: 1020px) {
+    width: 100%;
+    height: 400px;
+  }
 `
 
 export const TimerProject = styled.div``
@@ -45,21 +54,21 @@ export const TwtProject = styled.div``
 
 export const NameProject = styled.h1`
   font-weight: 600;
-  font-size: 48px;
+  font-size: 2rem;
 
-  @media (max-width: 869px) {
-    font-size: 30px;
+  @media (max-width: 1020px) {
+    font-size: 1.5rem;
     font-weight: 500;
     margin-bottom: 10px;
   }
 `
 
 export const TextProject = styled.p`
-  font-size: 22px;
+  font-size: 1.25rem;
   padding: 15px 20px;
 
-  @media (max-width: 869px) {
-    font-size: 14px;
+  @media (max-width: 1020px) {
+    font-size: 0.8rem;
   }
 `
 
@@ -84,10 +93,10 @@ export const AcessProject = styled.a`
   background-color: ${(props) => props.theme.text};
   color: ${(props) => props.theme.background};
 
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 600;
 
-  @media (max-width: 869px) {
+  @media (max-width: 1020px) {
     padding: 3px 70px;
     margin-bottom: 5px;
   }

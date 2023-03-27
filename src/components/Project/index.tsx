@@ -5,16 +5,16 @@ function Project() {
   const breakPoints = [
     { width: 1, itemsToShow: 1 },
     { width: 870, itemsToShow: 2 },
-    { width: 1700, itemsToShow: 3 },
-    { width: 2000, itemsToShow: 4 }
+    { width: 1600, itemsToShow: 3 },
+    { width: 3000, itemsToShow: 4 }
   ]
 
   return (
     <S.Project>
       <S.ProjectTitle>Projetos</S.ProjectTitle>
 
-      <S.Container>
-        <Carousel breakPoints={breakPoints} as={S.Carousel}>
+      <S.ProjectComponents>
+        <Carousel isRTL breakPoints={breakPoints}>
           <S.TimerProject>
             <S.Projects>
               <S.NameProject>timer</S.NameProject>
@@ -144,7 +144,7 @@ function Project() {
             </S.Projects>
           </S.BarberProject>
         </Carousel>
-      </S.Container>
+      </S.ProjectComponents>
     </S.Project>
   )
 }

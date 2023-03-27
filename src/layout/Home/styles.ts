@@ -27,19 +27,19 @@ export const TitleDiv = styled.div`
 
 export const Title = styled.h1`
   font-family: 'Noto Serif JP', sans-serif;
-  font-size: 36px;
+  font-size: 3rem;
 
   @media (max-width: 869px) {
-    font-size: 30px;
+    font-size: 1.5rem;
   }
 `
 
 export const Text = styled.p`
   font-family: 'Tenor Sans', sans-serif;
-  font-size: 25px;
+  font-size: 1.5rem;
 
   @media (max-width: 869px) {
-    font-size: 20px;
+    font-size: 0.8rem;
   }
 `
 
