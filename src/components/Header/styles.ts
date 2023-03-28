@@ -95,15 +95,12 @@ export const NavMenu = styled.ul`
   }
 `
 
-export const NavItem = styled.li`
-  height: 80px;
-`
-
 export const NavLinks = styled.a`
   color: ${(props) => props.theme.text};
   display: flex;
   align-items: center;
   text-decoration: none;
+  list-style: none;
   padding: 0.5rem 1rem;
   height: 100%;
 

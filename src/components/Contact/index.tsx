@@ -4,7 +4,7 @@ import FormContact from 'components/FormContact'
 import * as S from './styles'
 
 const Contact = () => (
-  <S.Contact>
+  <S.Contact id="contato">
     <S.ContactImgForm>
       <S.TitleContact>Contato</S.TitleContact>
       <TechContact />

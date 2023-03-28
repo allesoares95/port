@@ -14,6 +14,7 @@ const Home = () => {
       <Header />
 
       <S.Home
+        id="home"
         style={{
           backgroundImage: "url('/img/background.jpg')",
           width: '100%',

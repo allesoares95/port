@@ -2,7 +2,7 @@ import * as S from './styles'
 import Typical from 'react-typical'
 
 const About = () => (
-  <S.About>
+  <S.About id="sobre">
     <S.Title>Sobre mim</S.Title>
 
     <S.ContentAbout>

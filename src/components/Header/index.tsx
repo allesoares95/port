@@ -11,7 +11,7 @@ function Header() {
     <S.Header>
       <S.NavBar>
         <S.NavBarContainer>
-          <S.NavBarLogo href="/" onClick={closeMobileMenu}>
+          <S.NavBarLogo href="#home" onClick={closeMobileMenu}>
             <img src="/img/logo.svg" alt="foto de perfil" />
           </S.NavBarLogo>
 
@@ -20,35 +20,25 @@ function Header() {
           </S.MenuIcon>
 
           <S.NavMenu className={click ? 'nav-menu active' : 'nav-menu'}>
-            <S.NavItem>
-              <S.NavLinks href="/" onClick={closeMobileMenu}>
-                Home
-              </S.NavLinks>
-            </S.NavItem>
+            <S.NavLinks href="#home" onClick={closeMobileMenu}>
+              home
+            </S.NavLinks>
 
-            <S.NavItem>
-              <S.NavLinks href="/sobre" onClick={closeMobileMenu}>
-                Sobre-mim
-              </S.NavLinks>
-            </S.NavItem>
+            <S.NavLinks href="#sobre" onClick={closeMobileMenu}>
+              sobre
+            </S.NavLinks>
 
-            <S.NavItem>
-              <S.NavLinks href="/formacao" onClick={closeMobileMenu}>
-                Formação
-              </S.NavLinks>
-            </S.NavItem>
+            <S.NavLinks href="#formacao" onClick={closeMobileMenu}>
+              formacao
+            </S.NavLinks>
 
-            <S.NavItem>
-              <S.NavLinks href="/projetos" onClick={closeMobileMenu}>
-                Projetos
-              </S.NavLinks>
-            </S.NavItem>
+            <S.NavLinks href="#projetos" onClick={closeMobileMenu}>
+              projetos
+            </S.NavLinks>
 
-            <S.NavItem>
-              <S.NavLinks href="/contato" onClick={closeMobileMenu}>
-                Contato
-              </S.NavLinks>
-            </S.NavItem>
+            <S.NavLinks href="#contato" onClick={closeMobileMenu}>
+              contato
+            </S.NavLinks>
           </S.NavMenu>
         </S.NavBarContainer>
       </S.NavBar>
