@@ -13,7 +13,7 @@ export const TechContact = () => {
 
   return (
     <div>
-      <Lottie options={defaultOption} width={170} />
+      <Lottie options={defaultOption} width={100} />
     </div>
   )
 }

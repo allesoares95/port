@@ -4,6 +4,7 @@ export const Header = styled.header`
   position: fixed;
   opacity: 0.85;
   width: 100%;
+  z-index: 9999;
 
   @media (max-width: 1020px) {
     opacity: 1;

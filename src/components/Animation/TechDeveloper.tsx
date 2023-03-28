@@ -13,7 +13,7 @@ export const TechDeveloper = () => {
 
   return (
     <div>
-      <Lottie options={defaultOption} width={220} />
+      <Lottie options={defaultOption} width={130} />
     </div>
   )
 }

@@ -14,7 +14,7 @@ function Project() {
       <S.ProjectTitle>Projetos</S.ProjectTitle>
 
       <S.ProjectComponents>
-        <Carousel isRTL breakPoints={breakPoints}>
+        <Carousel isRTL={false} breakPoints={breakPoints}>
           <S.TimerProject>
             <S.Projects>
               <S.NameProject>timer</S.NameProject>

@@ -25,7 +25,7 @@ const About = () => (
         />
       </S.Container>
       <S.TextAbout>
-        Olá sou Desenvolvedor front-end, com conhecimento práticos em diversas
+        Olá, sou Desenvolvedor front-end, com conhecimento práticos em diversas
         tecnologias para a criação de interfaces web. Meu conjunto de
         habilidades inclui JavaScript, TypeScript, React, Next, HTML, CSS,
         Styled-Components, NodeJS, APIs, SQL, Git e GitHub e Figma.
@@ -36,8 +36,8 @@ const About = () => (
         <br />
         <br />
         No entanto, estou sempre buscando novas oportunidades para aperfeiçõar
-        meu conhecimento como desenvolvedor. Sou altamente proativo e tenho uma
-        alta capacidade de aprendizado. Estou sempre em busca de aprender novas
+        meu conhecimento como desenvolvedor. Sou proativo e tenho uma alta
+        capacidade de aprendizado. Estou sempre em busca de aprender novas
         tecnologias e explorar novas forma de fazer as coisas.
         <br />
         <br />

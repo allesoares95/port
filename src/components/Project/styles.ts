@@ -29,14 +29,13 @@ export const ProjectComponents = styled.div`
 export const Projects = styled.div`
   width: 100%;
   max-width: 600px;
-  height: 600px;
+  height: 500px;
   background-color: ${(props) => props.theme.secundary};
   color: ${(props) => props.theme.text};
   text-align: center;
 
   @media (max-width: 1020px) {
     width: 100%;
-    height: 400px;
   }
 `
 
@@ -74,8 +73,8 @@ export const TextProject = styled.p`
 
 export const ImgProject = styled.img`
   width: 100%;
-  max-width: 500px;
-  height: 300px;
+  max-width: 200px;
+  height: 180px;
   border-radius: 10px;
 
   @media (max-width: 400px) {

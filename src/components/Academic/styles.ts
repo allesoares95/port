@@ -4,16 +4,30 @@ export const Academic = styled.section`
   background-color: ${(props) => props.theme.secundary};
   color: ${(props) => props.theme.text};
   width: 100%;
-  height: 110vh;
+  height: auto;
   align-items: center;
   text-align: center;
 
   @media (max-width: 1020px) {
-    height: 120vh;
+    height: auto;
+    padding: 50px 0;
   }
 `
 
-export const DivContainer = styled.div``
+export const DivContainer = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 50px;
+
+  @media (max-width: 1020px) {
+    flex-direction: column;
+    padding: 20px;
+    gap: 40px;
+  }
+`
 
 export const Title = styled.h1`
   padding: 100px 0 50px 0;
@@ -25,32 +39,16 @@ export const Title = styled.h1`
   }
 `
 
-export const ImgReact = styled.img`
-  width: 80%;
-  height: 300px;
-  border-radius: 15px;
-
-  @media (max-width: 1020px) {
-    width: 90%;
-    height: 150px;
-  }
-`
-
 export const Content = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px 150px;
   gap: 100px;
+  width: 100%;
 
   @media (max-width: 1020px) {
-    display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 20px;
-    gap: 20px;
+    gap: 40px;
   }
 `
 
@@ -60,10 +58,11 @@ export const Skill = styled.div`
   border-radius: 15px;
   width: 430px;
   height: 550px;
+  margin-bottom: 20px;
 
   @media (max-width: 1020px) {
     width: 90%;
-    height: 50%;
+    height: auto;
   }
 `
 
