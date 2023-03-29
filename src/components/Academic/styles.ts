@@ -34,7 +34,7 @@ export const Title = styled.h1`
   font-size: 2rem;
 
   @media (max-width: 1020px) {
-    padding: 60px 0 10px 0;
+    padding: 30px 0 10px 0;
     font-size: 1.25rem;
   }
 `

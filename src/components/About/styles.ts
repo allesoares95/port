@@ -49,6 +49,10 @@ export const Title = styled.h1`
   text-align: center;
   padding: 100px 0 30px 0;
   font-size: 2rem;
+
+  @media (max-width: 1020px) {
+    padding: 30px 0 10px 0;
+  }
 `
 
 export const TextAbout = styled.p`
