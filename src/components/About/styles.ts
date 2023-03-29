@@ -55,7 +55,7 @@ export const TextAbout = styled.p`
   font-size: 1.25rem;
 
   @media (max-width: 1020px) {
-    font-size: 0.85rem;
+    font-size: 0.8rem;
     padding: 0 5px;
   }
 `

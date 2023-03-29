@@ -20,7 +20,7 @@ export const FormEmail = styled.form`
 
 export const PersonsName = styled.input`
   margin-bottom: 14px;
-  height: 34px;
+  height: 50px;
   border-radius: 4px;
   border: 0;
   padding: 0 8px;
@@ -30,7 +30,7 @@ export const PersonsName = styled.input`
 
 export const PersonsEmail = styled.input`
   margin-bottom: 14px;
-  height: 34px;
+  height: 50px;
   border-radius: 4px;
   border: 0;
   padding: 0 8px;
@@ -43,7 +43,7 @@ export const MessageSent = styled.textarea`
   border-radius: 4px;
   border: 0;
   padding: 8px;
-  height: 94px;
+  height: 130px;
   resize: none;
 
   border: ${(props) => props.theme.secundary} solid 3px;
@@ -54,7 +54,7 @@ export const Send = styled.input`
   border-radius: 4px;
   border: 0;
   cursor: pointer;
-  background-color: ${(props) => props.theme.background};
+  background-color: ${(props) => props.theme.menu};
   color: ${(props) => props.theme.text};
   font-size: 22px;
   font-weight: 500;

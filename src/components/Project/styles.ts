@@ -47,12 +47,20 @@ export const ImgProject = styled.img`
   max-width: 450px;
   height: 300px;
   margin-bottom: 20px;
+
+  @media (max-width: 1020px) {
+    height: 200px;
+  }
 `
 
 export const TextProject = styled.p`
   text-align: center;
   margin-bottom: 20px;
   font-size: 1.2rem;
+
+  @media (max-width: 1020px) {
+    font-size: 0.8rem;
+  }
 `
 
 export const AcessProject = styled.a`
