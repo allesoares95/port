@@ -10,7 +10,7 @@ function Project() {
   ]
 
   return (
-    <S.Project>
+    <S.Project id="projetos">
       <S.ProjectTitle>Projetos</S.ProjectTitle>
 
       <S.ProjectComponents>

@@ -13,90 +13,118 @@ export const ProjectTitle = styled.h1`
   font-size: 2rem;
 
   @media (max-width: 1020px) {
-    padding: 60px 0 10px 0;
-    font-size: 1.25rem;
+    padding: 50px 0;
   }
 `
 
 export const ProjectComponents = styled.div`
+  display: flex;
+  justify-content: center;
+
   @media (max-width: 1020px) {
-    width: 100%;
-    height: 500px;
-    padding-top: 60px;
+    flex-direction: column;
+    align-items: center;
   }
 `
 
 export const Projects = styled.div`
   width: 100%;
-  max-width: 600px;
-  height: 500px;
-  background-color: ${(props) => props.theme.secundary};
-  color: ${(props) => props.theme.text};
-  text-align: center;
-
-  @media (max-width: 1020px) {
-    width: 100%;
-  }
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 `
 
-export const TimerProject = styled.div``
-
-export const BarberProject = styled.div``
-
-export const DtMoneyProject = styled.div``
-
-export const HabitsProject = styled.div``
-
-export const StreamersProject = styled.div``
-
-export const TwtProject = styled.div``
-
-export const NameProject = styled.h1`
-  font-weight: 600;
-  font-size: 1.5rem;
-
-  @media (max-width: 1020px) {
-    font-size: 1rem;
-    font-weight: 500;
-    margin-bottom: 10px;
-  }
-`
-
-export const TextProject = styled.p`
-  font-size: 1rem;
-  padding: 15px 20px;
-
-  @media (max-width: 1020px) {
-    font-size: 0.8rem;
-  }
+export const NameProject = styled.h2`
+  font-size: 2rem;
+  margin-top: 10px;
+  margin-bottom: 20px;
 `
 
 export const ImgProject = styled.img`
-  width: 100%;
-  max-width: 200px;
-  height: 180px;
-  border-radius: 10px;
+  width: 90%;
+  max-width: 450px;
+  height: 300px;
+  margin-bottom: 20px;
+`
 
-  @media (max-width: 400px) {
-    width: 300px;
-    height: 300px;
-  }
+export const TextProject = styled.p`
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.2rem;
 `
 
 export const AcessProject = styled.a`
-  padding: 10px 100px;
+  text-align: center;
+  background-color: ${(props) => props.theme.menu};
+  color: ${(props) => props.theme.text};
+  padding: 10px 60px;
   border-radius: 10px;
+  transition: all 0.3s ease;
   text-decoration: none;
-  cursor: pointer;
 
-  background-color: ${(props) => props.theme.text};
-  color: ${(props) => props.theme.background};
+  &:hover {
+    background-color: ${(props) => props.theme.secundary};
+  }
+`
 
-  font-size: 1rem;
-  font-weight: 600;
+export const TimerProject = styled.div`
+  width: 100%;
+  height: 100%;
+  padding: 20px;
 
   @media (max-width: 1020px) {
-    padding: 3px 70px;
-    margin-bottom: 5px;
+    padding: 0;
+  }
+`
+
+export const TwtProject = styled.div`
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+
+  @media (max-width: 1020px) {
+    padding: 0;
+  }
+`
+
+export const DtMoneyProject = styled.div`
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+
+  @media (max-width: 1020px) {
+    padding: 0;
+  }
+`
+
+export const HabitsProject = styled.div`
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+
+  @media (max-width: 1020px) {
+    padding: 0;
+  }
+`
+
+export const StreamersProject = styled.div`
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+
+  @media (max-width: 1020px) {
+    padding: 0;
+  }
+`
+
+export const BarberProject = styled.div`
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+
+  @media (max-width: 1020px) {
+    padding: 0;
   }
 `

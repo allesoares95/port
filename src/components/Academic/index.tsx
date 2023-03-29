@@ -3,7 +3,7 @@ import { TechDeveloper } from 'components/Animation/TechDeveloper'
 import * as S from './styles'
 
 const Academic = () => (
-  <S.Academic>
+  <S.Academic id="formacao">
     <S.DivContainer>
       <S.Title>Formação Acadêmica</S.Title>
     </S.DivContainer>

@@ -2,9 +2,12 @@ import styled from 'styled-components'
 
 export const About = styled.section`
   width: 100%;
-  height: 110vh;
+  min-height: 100vh;
   background-color: ${(props) => props.theme.background};
   color: ${(props) => props.theme.text};
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
   @media (max-width: 1020px) {
     height: 120vh;
@@ -14,52 +17,53 @@ export const About = styled.section`
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  text-align: center;
   gap: 10px;
+
+  @media (max-width: 1020px) {
+  }
 `
 
 export const ContentAbout = styled.div`
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 100px;
   gap: 30px;
 
   @media (max-width: 1020px) {
     display: flex;
-    justify-content: center;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 0 30px;
+    justify-content: center;
+    padding: 0 10px;
   }
 `
-export const NameAbout = styled.p``
+export const NameAbout = styled.p`
+  font-size: 1.5rem;
+  margin: 0;
+`
 
 export const Title = styled.h1`
   text-align: center;
   padding: 100px 0 30px 0;
   font-size: 2rem;
-
-  @media (max-width: 1020px) {
-    padding: 40px 0 20px 0;
-    font-size: 1.25rem;
-  }
 `
 
 export const TextAbout = styled.p`
   font-size: 1.25rem;
 
-  @media (max-width: 1200px) {
-    font-size: 0.8rem;
+  @media (max-width: 1020px) {
+    font-size: 0.85rem;
+    padding: 0 5px;
   }
 `
 
 export const ImgPerfil = styled.img`
   width: 300px;
   border-radius: 50%;
+  margin-bottom: 20px;
 
   @media (max-width: 1020px) {
     width: 100px;

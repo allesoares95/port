@@ -2,7 +2,7 @@ import * as S from './styles'
 import Typical from 'react-typical'
 
 const About = () => (
-  <S.About>
+  <S.About id="sobre">
     <S.Title>Sobre mim</S.Title>
 
     <S.ContentAbout>
@@ -25,7 +25,7 @@ const About = () => (
         />
       </S.Container>
       <S.TextAbout>
-        Olá, sou Desenvolvedor front-end, com conhecimento práticos em diversas
+        Olá! sou Desenvolvedor front-end, com conhecimento práticos em diversas
         tecnologias para a criação de interfaces web. Meu conjunto de
         habilidades inclui JavaScript, TypeScript, React, Next, HTML, CSS,
         Styled-Components, NodeJS, APIs, SQL, Git e GitHub e Figma.
@@ -35,8 +35,8 @@ const About = () => (
         proprocionou uma base sólida em programação e lógica de programação.
         <br />
         <br />
-        No entanto, estou sempre buscando novas oportunidades para aperfeiçõar
-        meu conhecimento como desenvolvedor. Sou proativo e tenho uma alta
+        Estou sempre buscando novas oportunidades para aperfeiçõar meu
+        conhecimento como desenvolvedor. Sou proativo e tenho uma alta
         capacidade de aprendizado. Estou sempre em busca de aprender novas
         tecnologias e explorar novas forma de fazer as coisas.
         <br />

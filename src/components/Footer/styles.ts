@@ -14,6 +14,7 @@ export const Copyright = styled.p`
   color: ${(props) => props.theme.text};
   font-weight: 600;
   font-size: 24px;
+  opacity: 0.5;
 
   @media (max-width: 1020px) {
     font-size: 18px;
