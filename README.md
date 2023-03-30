@@ -1,9 +1,9 @@
 <div align="center">
   <h1>Portifolio</h1>
-  <img src="./public/img/portfolio.png" width="800" height="300" >
+  <img src="./public/img/portfolio.png" >
 </div>
 
-[acesse o portfolio](https://portifolio-allesoares.vercel.app/)
+[acesse o portfolio ](https://portifolio-allesoares.vercel.app/)
 
 ## Sobre
     O objetivo desse portfólio é exibir algumas informações sobre mim, minha formação acadêmica, cursos finalizados, habilidades com desenvolvimento,projetos e rede de contato.
