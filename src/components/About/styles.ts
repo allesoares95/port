@@ -10,7 +10,8 @@ export const About = styled.section`
   align-items: center;
 
   @media (max-width: 1020px) {
-    height: 120vh;
+    height: auto;
+    padding: 50px 0;
   }
 `
 

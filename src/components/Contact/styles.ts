@@ -11,7 +11,7 @@ export const Contact = styled.div`
 
   @media (max-width: 1020px) {
     height: auto;
-    padding-bottom: 50px;
+    padding: 50px 0;
   }
 `
 

@@ -5,15 +5,19 @@ export const Project = styled.div`
   height: 100vh;
   background-color: ${(props) => props.theme.background};
   color: ${(props) => props.theme.text};
+
+  @media (max-width: 1020px) {
+    padding: 50px 0;
+  }
 `
 
 export const ProjectTitle = styled.h1`
   text-align: center;
-  padding: 100px 0 50px 0;
+  padding: 100px 0 30px 0;
   font-size: 2rem;
 
   @media (max-width: 1020px) {
-    padding: 50px 0;
+    padding: 30px 0 10px 0;
   }
 `
 

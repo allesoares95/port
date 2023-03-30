@@ -30,12 +30,12 @@ export const DivContainer = styled.div`
 `
 
 export const Title = styled.h1`
-  padding: 100px 0 50px 0;
+  text-align: center;
+  padding: 100px 0 30px 0;
   font-size: 2rem;
 
   @media (max-width: 1020px) {
     padding: 30px 0 10px 0;
-    font-size: 1.25rem;
   }
 `
 
@@ -55,13 +55,17 @@ export const Content = styled.div`
 export const Skill = styled.div`
   background-color: ${(props) => props.theme.background};
   border: ${(props) => props.theme.menu} 3px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   border-radius: 15px;
   width: 430px;
   height: 550px;
   margin-bottom: 20px;
 
   @media (max-width: 1020px) {
-    width: 90%;
+    width: 80%;
     height: auto;
   }
 `
@@ -76,6 +80,7 @@ export const TitleSkill = styled.h1`
 
 export const Text = styled.p`
   font-size: 1rem;
+  padding-bottom: 20px;
 
   @media (max-width: 1020px) {
     font-size: 0.8rem;
