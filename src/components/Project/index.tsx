@@ -46,7 +46,7 @@ function Project() {
               />
 
               <S.TextProject>
-                Um clone do twt, nesse projeto você podera tweetar e comentar em
+                Um clone do twt, nesse projeto você poderá tweetar e comentar em
                 tweets existentes.
               </S.TextProject>
               <S.AcessProject
@@ -67,8 +67,8 @@ function Project() {
               />
 
               <S.TextProject>
-                criado para uso pessoal, para administrar suas finanças
-                pessoais, você podera adicionar entradas e saídas e nomear do
+                Criado para uso pessoal, para administrar suas finanças
+                pessoais, você poderá adicionar entradas e saídas e nomear do
                 jeito que preferir.
               </S.TextProject>
               <S.AcessProject
@@ -88,9 +88,8 @@ function Project() {
                 alt="img do projeto"
               />
               <S.TextProject>
-                Projeto criado para ajudar a mapear seus hábitos e anotações
-                diárias de tarefas diárias concluídas ou inacabadas. web -
-                mobile
+                Projeto criado para ajudar a mapear seus hábitos, anotações e
+                tarefas diárias concluídas ou inacabadas. Web-mobile.
               </S.TextProject>
               <S.AcessProject
                 href="https://github.com/allesoares95/nlw-setup/"

@@ -35,7 +35,7 @@ const About = () => (
         proprocionou uma base sólida em programação e lógica de programação.
         <br />
         <br />
-        Estou sempre buscando novas oportunidades para aperfeiçõar meu
+        Estou sempre buscando novas oportunidades para aperfeiçoar meu
         conhecimento como desenvolvedor. Sou proativo e tenho uma alta
         capacidade de aprendizado. Estou sempre em busca de aprender novas
         tecnologias e explorar novas forma de fazer as coisas.
